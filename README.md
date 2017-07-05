@@ -7,17 +7,17 @@
 
 页面布局：RecyclerView
 
-联网： OkGo
+联网： Retrofit2
 
 图片加载： Glide
 
 依赖注入： Dagger2
 
-数据来源：
+数据来源：Bilibili API  https://github.com/fython/BilibiliAPIDocs
 
-视频播放： 
+视频播放： ijkplayer
 
-风格设计： Material design
+风格设计： Material design ; Material icon
 
 
 
