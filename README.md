@@ -13,9 +13,13 @@
 
 依赖注入： Dragger2
 
-数据来源：
+数据来源：A 站
 
-视频播放： 
+视频播放：
+
+异步加载： RxJAva
+
+数据绑定： Data Banding
 
 风格设计： Material design
 
