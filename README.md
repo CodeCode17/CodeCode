@@ -11,7 +11,7 @@
 
 图片加载： Glide
 
-依赖注入： Dragger2
+依赖注入： Dagger2
 
 数据来源：
 
