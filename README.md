@@ -13,6 +13,6 @@
 
 视频播放： 
 
-风格设计： 
+风格设计： Material design
 
 
