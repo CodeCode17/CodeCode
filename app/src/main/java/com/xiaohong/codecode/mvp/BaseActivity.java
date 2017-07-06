@@ -5,7 +5,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 import com.xiaohong.codecode.mvp.mvppresenter.BasePresenter;
-import com.xiaohong.codecode.mvp.mvppresenter.MainPresenter;
 
 /**
  * Created by Feng on 2017/7/5.

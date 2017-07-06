@@ -3,7 +3,6 @@ package com.xiaohong.codecode.mvp.mvppresenter;
 import com.xiaohong.codecode.mvp.mvpmodel.MainModel;
 import com.xiaohong.codecode.mvp.mvpmodel.impl.MainModeImpl;
 import com.xiaohong.codecode.mvp.mvpview.MainView;
-import com.xiaohong.codecode.mvp.mvpview.impl.MainViewImpl;
 
 /**
  * Created by Feng on 2017/7/5.
