@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -20,6 +21,7 @@ import com.xiaohong.codecode.R;
 import com.xiaohong.codecode.adpter.MainViewPagerAdapter;
 import com.xiaohong.codecode.core.TabLayoutUtils;
 import com.xiaohong.codecode.fragment.BaseFragment;
+import com.xiaohong.codecode.fragment.HongFragment;
 import com.xiaohong.codecode.fragment.Test0Fragment;
 import com.xiaohong.codecode.fragment.Test1Fragment;
 import com.xiaohong.codecode.mvp.BaseActivity;
@@ -47,7 +49,7 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainVie
     DrawerLayout mMainDrawerLayout;
 
 
-    private List<BaseFragment> mFragments;
+    private List<Fragment> mFragments;
 
     private MainViewPagerAdapter mMainViewPagerAdapter;
 
@@ -148,7 +150,7 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainVie
 
     private void initData() {
         mFragments = new ArrayList<>();
-        mFragments.add(new Test0Fragment());
+        mFragments.add(new HongFragment());
         mFragments.add(new Test1Fragment());
         mFragments.add(new Test0Fragment());
         mFragments.add(new Test1Fragment());
