@@ -99,7 +99,7 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainVie
         mToogle = new ActionBarDrawerToggle(this,mMainDrawerLayout,mMainToolbar,R.string.open,R.string.close);
         mMainDrawerLayout.addDrawerListener(mToogle);
         mToogle.syncState();
-        mMainToolbar.setLogo(R.drawable.ic_account_circle_white_24dp);
+        mMainToolbar.setLogo(R.drawable.ic_account_circle_white_36dp);
 
     }
     @Override
