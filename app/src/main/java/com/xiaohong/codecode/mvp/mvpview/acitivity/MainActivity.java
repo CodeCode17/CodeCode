@@ -60,9 +60,12 @@ public class MainActivity extends BaseActivity<MainPresenter> implements MainVie
     }
 
     private void initToolBar() {
-        ActionBar supportActionBar = getSupportActionBar();
         if (mToolbar != null) {
             setSupportActionBar(mToolbar);
+        }
+        ActionBar toolBar = getSupportActionBar();
+        if (toolBar != null) {
+            toolBar.setTitle("");
         }
     }
 
