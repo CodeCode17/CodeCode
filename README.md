@@ -13,7 +13,7 @@
 
 依赖注入： Dagger2
 
-异步加载： RxJAva
+异步加载： RxJava
 
 数据绑定： Data Banding
 
