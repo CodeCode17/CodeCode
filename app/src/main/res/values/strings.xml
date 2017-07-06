@@ -9,14 +9,7 @@
     <string name="menu_tv">menu_tv</string>
     <string name="open">open</string>
     <string name="close">close</string>
-    <string name="toolbar_name">小红</string>
+    <string name="toolbar_name">大宝</string>
 
-    <array name="tab_layout_main_title">
-        <item>直播</item>
-        <item>推荐</item>
-        <item>追番</item>
-        <item>分区</item>
-        <item>动态</item>
-        <item>发现</item>
-    </array>
+
 </resources>

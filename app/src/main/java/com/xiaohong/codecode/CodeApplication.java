@@ -5,6 +5,7 @@ import android.app.Application;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.Logger;
 import com.squareup.leakcanary.LeakCanary;
+import com.xiaohong.codecode.core.Utils;
 
 /**
  * Created by Feng on 2017/7/5.
@@ -24,5 +25,11 @@ public class CodeApplication extends Application {
 
         //init log utils
         Logger.addLogAdapter(new AndroidLogAdapter());
+
+        init();
+    }
+
+    private void init() {
+        Utils.init(this);
     }
 }

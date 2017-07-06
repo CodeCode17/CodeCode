@@ -18,6 +18,7 @@ import android.view.View;
 
 import com.xiaohong.codecode.R;
 import com.xiaohong.codecode.adpter.MainViewPagerAdapter;
+import com.xiaohong.codecode.core.TabLayoutUtils;
 import com.xiaohong.codecode.fragment.BaseFragment;
 import com.xiaohong.codecode.fragment.Test0Fragment;
 import com.xiaohong.codecode.fragment.Test1Fragment;
