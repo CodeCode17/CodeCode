@@ -40,7 +40,7 @@ public class Test0Fragment extends BaseFragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        Glide.with(this).load("https://github.com/CodeCode17/CodeCode/blob/master/hong.gif")
+        Glide.with(this).load("https://raw.githubusercontent.com/CodeCode17/CodeCode/master/hong.gif")
                 .asGif().into(mImage);
     }
 

@@ -35,8 +35,8 @@ public class HongFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        Glide.with(this).load("https://github.com/CodeCode17/CodeCode/blob/master/hong.gif")
-                .asGif().into(mImage);
+        Glide.with(this).load("https://github.com/CodeCode17/CodeCode/blob/master/hong.gif?raw=true")
+                .into(mImage);
 
     }
 
